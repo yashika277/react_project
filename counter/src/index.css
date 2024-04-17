@@ -1,0 +1,55 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: rgb(81, 243, 162);
+  background: linear-gradient(45deg, rgba(81, 243, 162, 1)22%,
+      rgba(96, 233, 235, 1)54%,
+      rgba(0, 255, 247, 1)100%);
+}
+
+.counter-container {
+  display: flex;
+  margin-top: 125px;
+  height: 45vh;
+  width: 45vh;
+  border-radius: 15px;
+  min-width: 250px;
+  background-color: #eff1e7;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+
+}
+
+.counter {
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+}
+
+.count {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+.btn {
+  padding: 10px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
